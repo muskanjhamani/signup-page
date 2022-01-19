@@ -1,109 +1,103 @@
-p{
-    margin-top: 5%;
-    text-align: center;  
-    font-size: 35px;   
-    font-family:'Times New Roman', Times, serif;
-    
+p {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
 }
-p:last-child{
-    
-    color: rgb(7, 173, 7);
-    font-size: 15px;
+p:last-child {
+  color: #396460;
+  font-size: 15px;
 }
-img{
-   width: 60px;
-   padding-right: 30px;
-   padding-left: 40px;
-   border-right: 2px solid gainsboro;
-   cursor: pointer;
-     
+img {
+  width: 60px;
+  padding-right: 30px;
+  padding-left: 40px;
+  border-right: 2px solid gainsboro;
+  cursor: pointer;
 }
-.ac{
-   font-size: 20px;
-   color: rgb(7, 173, 7);
-
+.ac {
+  font-size: 20px;
+  color: #357981;
 }
-.linked{
-padding: none;
-border: none;
+.linked {
+  padding: none;
+  border: none;
 }
-.form{
-    max-width: 40%;
-    height: 105%;
-    margin: 0% 5%;
-    background-color: rgb(245, 245, 245);
-overflow:auto;
-     border: 20px solid rgb(32, 192, 32);
-    box-sizing: border-box;
-    margin-left: auto;
-margin-right: auto;
+.form {
+  max-width: 40%;
+  height: 105%;
+  margin: 0% 5%;
+  background-color: rgb(245, 245, 245);
+  overflow: auto;
+  border: 20px solid rgb(32, 192, 32);
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
-.content{
-    
-    max-width: 100%;
-    height:90%;
-    margin:4% 4%;
-    box-sizing: border-box;
-    padding: 12px;
-    position: relative;
+.content {
+  max-width: 100%;
+  height: 90%;
+  margin: 4% 4%;
+  box-sizing: border-box;
+  padding: 12px;
+  position: relative;
 }
-fieldset{
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    
+fieldset {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
 }
-legend{
-    text-align: center;
+legend {
+  text-align: center;
 }
-input[type=email]{
-    width: 100%;
-   padding: 12px 20px;
-   margin: 8px 0;
-    box-sizing: border-box;
-   border-radius: 5px;
-   background-image: url('Capture.PNG');
-   background-repeat: no-repeat;
-   background-position: 4px 10px;
-   background-size: 20px;
-   padding-left: 40px;
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-image: url("Capture.PNG");
+  background-repeat: no-repeat;
+  background-position: 4px 10px;
+  background-size: 20px;
+  padding-left: 40px;
 }
-input[type=password]{
-    width: 100%;
-   padding: 12px 20px;
-   margin: 8px 0;
-    box-sizing: border-box;
-   border-radius: 5px;
-   background-image: url('Capture3.PNG');
-   background-repeat: no-repeat;
-   background-position: 4px 8px;
-   background-size: 20px;
-   padding-left: 40px;
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-image: url("Capture3.PNG");
+  background-repeat: no-repeat;
+  background-position: 4px 8px;
+  background-size: 20px;
+  padding-left: 40px;
 }
-input[type=text]{
-    width: 100%;
-   padding: 12px 20px;
-   margin: 8px 0;
-    box-sizing: border-box;
-   border-radius: 5px;
-   background-image: url('Capture2.PNG');
-   background-repeat: no-repeat;
-   background-position: 4px 8px;
-   background-size: 20px;
-   padding-left: 40px;
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-image: url("Capture2.PNG");
+  background-repeat: no-repeat;
+  background-position: 4px 8px;
+  background-size: 20px;
+  padding-left: 40px;
 }
-input[type=submit]{
-    padding:10px 12px;
-    margin: 1% 0%;
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 5px;
-   background-color:limegreen;
-   color: white;
-   font-size:85%;
+input[type="submit"] {
+  padding: 10px 12px;
+  margin: 1% 0%;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: limegreen;
+  color: white;
+  font-size: 85%;
 }
-input[type=submit]:hover{
-    box-shadow:3px 3px rgb(224, 223, 223) ;
-    background-color:rgb(96, 190, 96);
-    cursor: pointer;
+input[type="submit"]:hover {
+  box-shadow: 3px 3px rgb(224, 223, 223);
+  background-color: rgb(96, 190, 96);
+  cursor: pointer;
 }
